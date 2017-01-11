@@ -1,0 +1,70 @@
+header{
+	max-height: 60px;
+}
+
+#logo {
+	float: left;
+	height: 12%;
+	width: 12%;
+	padding: 17px 5px;
+}
+
+#cart {
+	float: right;
+	height: 5%;
+	width: 5%;
+	padding: 17px 5px;
+}
+
+#banner {
+	clear: both;
+	background-image: url("images/flower-bkgd.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 86vh;
+	position: relative;
+}
+
+#banner-girl {
+	position: absolute;
+	background-position: top;
+	bottom: 0; left: 50%;
+	width: 20%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: -10%;
+	background-image: url("images/banner-girl.png");
+	z-index: 1;
+	height: 90%;
+}
+
+#banner-text {
+	position: absolute;
+	left: 50%;
+	width: 50%;
+	margin-left:-25%;
+	min-height: 40%;
+	display: block;
+	text-align: center;
+	top:33%;
+	z-index: 2;
+}
+
+h1 {
+	color: #FFF;
+	font-family: PlayfairDisplay;
+	font-weight: lighter;
+	font-size: 48pt;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px dimgrey;
+}
+
+h5{
+	color:#FFF;
+	font-family: Raleway;
+	font-size: 18pt;
+	text-transform: uppercase;
+	text-shadow: 0.5px 0.5px dimgrey;
+}
+
+
