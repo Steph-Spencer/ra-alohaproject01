@@ -16,7 +16,11 @@ p{
 }
 
 .width-25{
-width: 25%;
+	width: 25%;
+}
+
+.width-50{
+	width: 50%;
 }
 
 .background-image-fix{
@@ -26,7 +30,15 @@ width: 25%;
 	background-repeat: 0;
 }
 .background-color-dk-grey{
-	color: #40;
+	background-color: #40;
+}
+
+.background-white{
+	background-color: #FFF;
+}
+
+.background-orangered{
+	background color: orangered;
 }
 
 /* Text Styling */
@@ -44,7 +56,7 @@ width: 25%;
 }
 
 .text-silver{
-	color: silver;
+	color: dimgrey;
 }
 
 .text-shadow-small-dimgrey{
@@ -117,6 +129,9 @@ width: 25%;
 .padding-large {
 	padding: 20px;
 }
+.border-radius30{
+	border-radius: 30px 30px;
+}
 
 #logo {
 	height: 12%;
@@ -151,7 +166,7 @@ width: 25%;
 }
 
 #subscribe-cta{
-
+	background-image: url(images/wave-bkgd.jpg);
 }
 
 h1 {
@@ -183,5 +198,14 @@ h5 {
 	display: block;
 	font-size: 18pt;
 }
+
+#CTA {
+	display: block;
+	left: 50%;
+	width: 50%;
+	top:30%;
+	margin:auto;
+}
+
 </style>
 
