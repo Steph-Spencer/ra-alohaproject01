@@ -15,6 +15,13 @@ p{
 	font-size: 12;
 }
 
+.clearfix:after
+ {
+	content: " ";
+    clear: both;
+    display: block;
+}
+
 .width-25{
 	width: 25%;
 }
@@ -32,7 +39,7 @@ p{
 	background-repeat: 0;
 }
 .background-color-dk-grey{
-	background-color: #40;
+	background-color: #404040;
 }
 
 .background-white{
@@ -40,7 +47,7 @@ p{
 }
 
 .background-orangered{
-	background color: orangered;
+	background-color: #ea5038;
 }
 
 /* Text Styling */
@@ -109,7 +116,7 @@ p{
 }
 
 .z-index-1{
-	z-index: 1
+	z-index: 1;
 }
 
 .z-index-2{
@@ -117,18 +124,18 @@ p{
 }	
 	
 .padding-none{
-	padding:0;
+	padding: 0;
 }
 
 .padding-small{
-	padding: 10px)
+	padding: 10px;
 }
 
-.padding-medium {
-	padding: 15px
+.padding-medium{
+	padding: 15px;
 }
 
-.padding-large {
+.padding-large{
 	padding: 20px;
 }
 .border-radius30{
@@ -167,8 +174,23 @@ p{
 	height: 90%;
 }
 
-#subscribe-cta{
-	background-image: url(images/wave-bkgd.jpg);
+#banner-text {
+	position: absolute;
+	left: 50%;
+	width: 50%;
+	top:45%;
+	margin-left:-25%;
+	min-height: 40%;
+	display: block;
+	font-size: 18pt;
+}
+
+#subscribe-cta {
+	background-image: url("images/wave-bkgd.jpg");
+	background-position: bottom;
+	margin-bottom: 10px;
+	min-height:40vh;
+	width: 100%;
 }
 
 h1 {
@@ -189,16 +211,16 @@ h4{
 h5 {	
 	top:33%;
 }
+a {
+	text-decoration: none;
+	color: #FFF;	
+}
 
-#banner-text {
-	position: absolute;
-	left: 50%;
-	width: 50%;
-	top:30%;
-	margin-left:-25%;
-	min-height: 40%;
-	display: block;
-	font-size: 18pt;
+a:hover {
+	color: #ea5038;
+}
+a:active {
+	color:dimgrey;
 }
 
 #CTA {
