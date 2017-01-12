@@ -1,3 +1,7 @@
+/* <style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+</style> */
+
 body{
 	margin: 0
 }
@@ -6,16 +10,27 @@ header{
 	max-height: 60px;
 }
 
+hr{
+	color:silver;
+}
+
+p{
+	font-family: Raleway;
+	font-size: 12;
+}
+
 .width-25{
 width: 25%;
 }
 
-.background-image-parameters{
+.background-image-fix{
 	width: 100%;
-	position:relative;
 	background-position: cover;
 	clear:both;
 	background-repeat: 0;
+}
+.background-color-dk-grey{
+	color: #40;
 }
 
 /* Text Styling */
@@ -48,6 +63,10 @@ width: 25%;
 	font-style: italic;
 }
 
+.no-italic{
+	font-style: normal;
+}
+
 .uppercase{
 	text-transform: uppercase;
 }
@@ -60,12 +79,27 @@ width: 25%;
 	font-family: Raleway, helvetica, sans-serif;
 }
 
+/* Position Styling */
+
 .left{
 	float: left;
 }
 
 .right{
 	float: right;
+
+}
+
+.z-index-1{
+	z-index: 1
+}
+
+.z-index-2{
+	z-index: 2;
+}	
+	
+.padding-none{
+	padding:0;
 }
 
 .padding-small{
@@ -77,18 +111,16 @@ width: 25%;
 }
 
 .padding-large {
-	
+	padding: 20px;
 }
 
 #logo {
-	float: left;
 	height: 12%;
 	width: 12%;
 	padding: 17px 5px;
 }
 
 #cart {
-	float: right;
 	height: 5%;
 	width: 5%;
 }
@@ -116,34 +148,28 @@ width: 25%;
 }
 
 h1 {
-	color: #FFF;
-	font-family: PlayfairDisplay, serif;
 	font-weight: lighter;
 	font-size: 48pt;
 	letter-spacing: 2px;
-	text-shadow: 1px 1px 1px dimgrey;
 }
 
-h5{
-	color:#FFF;
-	text-transform: uppercase;
-	font-family: Raleway;
-	text-align: center;
+h2 {
+	font-size: 36pt;
+}
+
+h5 {	
 	top:33%;
-	z-index: 2;
 }
 
 #banner-text {
 	position: absolute;
 	left: 50%;
 	width: 50%;
+	top:30%;
 	margin-left:-25%;
 	min-height: 40%;
 	display: block;
-	font-family: Raleway;
 	font-size: 18pt;
-	text-transform: uppercase;
-	text-shadow: 0.5px 0.5px 0.5px dimgrey;
 }
-
+</style>
 
