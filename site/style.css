@@ -6,12 +6,8 @@ body{
 	margin: 0
 }
 
-header{
-	max-height: 60px;
-}
-
 hr{
-	color:silver;
+	color: silver;
 }
 
 p{
@@ -47,6 +43,10 @@ width: 25%;
 	color: red;
 }
 
+.text-silver{
+	color: silver;
+}
+
 .text-shadow-small-dimgrey{
 	text-shadow: 1px 1px 1px dimgrey;
 }
@@ -75,8 +75,12 @@ width: 25%;
 	font-family: PlayfairDisplay, TimesNewRoman, serif;
 }
 
-.font-famly-sans{
+.font-family-sans-serif{
 	font-family: Raleway, helvetica, sans-serif;
+}
+
+.small-font{
+	font-size:10pt;
 }
 
 /* Position Styling */
@@ -117,7 +121,6 @@ width: 25%;
 #logo {
 	height: 12%;
 	width: 12%;
-	padding: 17px 5px;
 }
 
 #cart {
@@ -147,14 +150,23 @@ width: 25%;
 	height: 90%;
 }
 
+#subscribe-cta{
+
+}
+
 h1 {
-	font-weight: lighter;
+	font-weight: 300;
 	font-size: 48pt;
 	letter-spacing: 2px;
 }
 
 h2 {
 	font-size: 36pt;
+}
+
+h4{
+	font-size:16pt;
+	font-weight: 200;
 }
 
 h5 {	
