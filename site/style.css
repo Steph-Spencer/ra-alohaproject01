@@ -246,12 +246,15 @@ a:active {
 	border: none;
 }
 
+/* Footer Rules */
+
+
 .socialicons {
 	padding-top: 5px;
 	margin-right: 1em;
 }
 
-/* ---------------------- */
+/* Styled IDs */
 
 #logo {
 	height: 12%;
@@ -351,6 +354,10 @@ a:active {
 	padding-bottom: 3vh;
 }
 
+.backgroundimagefix{
+	background-position: center;
+}
+
 #footer-text, #social-links{
 	float: none;
 	position: center;
@@ -368,6 +375,26 @@ padding-top: 3vh;
 #CTA{
 	width: 60%;
 }
+
+#banner {
+	clear: both;
+	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3),transparent), url("images/flower-bkgd.jpg");
+	background-size: cover;
+	min-height: 80vh;
+	position: relative;
+	}
+
+#banner-text {
+	position: absolute;
+	left: 50%;
+	width: 80%%;
+	top: 45%;
+	margin-left:-40%;
+	min-height: 30%;
+	display: block;
+	font-size: 1.5rem;
+}
+
 
 .margin-top-bottom-7vh{
 	margin: 3vh 0;
@@ -392,6 +419,11 @@ h2{
 	font-size: 2rem;
 	width: 100%
 }
+
+#banner-girl{
+	display: none;
+}
+
 
 .width-30{
 	width: 90%;
