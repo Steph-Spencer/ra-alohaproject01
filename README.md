@@ -7,3 +7,4 @@ Not working:
 -white space between Sign Up section and is not optimal on many screen size, where it expands larger than intended.
 -wanted to find a way to change background in Signup section so that text is more legible over darker portions of image.
 -code files are messier than I would like. Ran out of time to tidy up and streamline code.
+-Tried @import for Google Fonts but was not able to get it to work, so reverted to old method until I can obtain some help on troubleshooting this.
