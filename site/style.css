@@ -351,7 +351,6 @@ a:active {
 	margin-right:0;
 	padding:0;
 	float: left;
-	padding-bottom: 3vh;
 }
 
 .backgroundimagefix{
@@ -421,7 +420,8 @@ h2{
 }
 
 #banner-girl{
-	display: none;
+	width: 50%;
+	margin:0 -15vh;
 }
 
 
