@@ -1,10 +1,6 @@
 # ra-alohaproject01
-This is the repository for project 1 at RED Academy
+This is the repository for project 1A in the RED Academy Web Developer Professional program.
 
-Not working:
--banner lady is not properly responsive. I missed a trick on this, have experimented with methods to make her work, but ran out of time.
--social icons in footer do not position properly in responsive views. Wanted them to be in a line horizontally below the text, but ran out of time to troubleshoot the positioning
--white space between Sign Up section and is not optimal on many screen size, where it expands larger than intended.
--wanted to find a way to change background in Signup section so that text is more legible over darker portions of image.
--code files are messier than I would like. Ran out of time to tidy up and streamline code.
--Tried @import for Google Fonts but was not able to get it to work, so reverted to old method until I can obtain some help on troubleshooting this.
+The project is a basic web page made with HTML5 and CSS3 for the fictional Aloha Apparel Company. It contains a banner with the site heading and hero image, a call to action, a selection of products, an email signup form, as well as a footer with social media icons.
+
+The code is messier than I would like and I still want to take the time to tidy up and streamline code.
